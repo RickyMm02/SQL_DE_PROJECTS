@@ -13,9 +13,9 @@ A SQL project analyzing the data engineer job market using real world job postin
 
 If you only have a minute, review these:
 
-1. [`top_demanded_skills.sql`](.\top_demanded_skills.sql) - Demand analysis with multi-table joins
-2. [`top_paying_skills.sql`](.\top_paying_skills.sql) - Salary analysis with aggregations
-3. [`most_optimal_skills.sql`](.\most_optimal_skills.sql) - Combined demand/salary optimization query
+1. [`top_demanded_skills.sql`](./top_demanded_skills.sql) - Demand analysis with multi-table joins
+2. [`top_paying_skills.sql`](./top_paying_skills.sql) - Salary analysis with aggregations
+3. [`most_optimal_skills.sql`](./most_optimal_skills.sql) - Combined demand/salary optimization query
 
 ## Problem & Context
 
@@ -47,9 +47,9 @@ By querying across these interconnected tables, I extracted insights about skill
 
 ### Query Structure 
 
-1. **[`Top Demanded Skills`](.\top_demanded_skills.sql)** - Identifies the 10  most in-demand skills for remote data engineer positions
-2. **[`Top Paying Skills`](.\top_paying_skills.sql)** - Analyzes the 25 highest-paying skills with salary and demand metrics
-3. **[`Optimal Skills`](.\most_optimal_skills.sql)** - Calculates an optimal score using natural log of demand combined with median salary to identify the most valuable skills to learn.
+1. **[`Top Demanded Skills`](./top_demanded_skills.sql)** - Identifies the 10  most in-demand skills for remote data engineer positions
+2. **[`Top Paying Skills`](./top_paying_skills.sql)** - Analyzes the 25 highest-paying skills with salary and demand metrics
+3. **[`Optimal Skills`](./most_optimal_skills.sql)** - Calculates an optimal score using natural log of demand combined with median salary to identify the most valuable skills to learn.
 
 ### Key Insights
 
