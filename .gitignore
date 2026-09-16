@@ -1,1 +1,5 @@
+
+=======
 *.duckdb
+*.duckdb.wal
+>>>>>>> develop/project2
